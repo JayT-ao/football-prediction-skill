@@ -2,7 +2,7 @@
 
 专业足球比赛预测系统，基于数据驱动的分析方法。
 
-最新版本：V7.0 | 1090场数据验证 | 准确率55.3%
+最新版本：V8.0 | 1090场数据验证 | 准确率55.3%
 
 ## Features
 
@@ -23,6 +23,9 @@
 - 实时数据：整合实时比赛数据
 - 可视化：预测结果可视化仪表板
 - API接口：RESTful API支持
+- 天气整合：天气对比赛的影响
+- 实时伤停：追踪球员伤病状态
+- 裁判数据：裁判执法风格分析
 
 ## Installation
 
@@ -35,10 +38,11 @@ git clone https://github.com/JayT-ao/football-prediction-skill.git
 - IMPROVEMENTS.md: 复盘改进
 - V2_IMPROVEMENTS.md: 10个新因素
 - V3_OPTIMIZATION.md: xG+ML+回测
-- V4_ADVANCED.md: LSTM+Transformer+GNN+因果+RL
-- V5_REFINEMENTS.md: 亚洲/非洲加权+欧洲降权
-- V6_REFINEMENTS.md: 主场+评分差距+射手+1090场验证
-- V7_ADVANCED.md: 深度学习+赔率效率+实时数据+API
+- V4_ADVANCED.md: LSTM+GNN+因果+RL
+- V5_REFINEMENTS.md: 亚洲/非洲加权
+- V6_REFINEMENTS.md: 主场+评分+射手
+- V7_ADVANCED.md: 深度学习+API
+- V8_ENHANCEMENTS.md: 天气+伤停+裁判 ??
 - README.md: 说明文档
 
 ## Performance (1090场验证)
@@ -70,6 +74,7 @@ git clone https://github.com/JayT-ao/football-prediction-skill.git
 - v5.0: 亚洲/非洲加权+欧洲降权
 - v6.0: 主场+评分差距+射手+1090场验证
 - v7.0: 深度学习+赔率效率+实时数据+API
+- v8.0: 天气+伤停+裁判+心理因素 ??
 
 ## License
 
