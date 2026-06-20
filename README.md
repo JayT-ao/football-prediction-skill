@@ -2,7 +2,7 @@
 
 专业足球比赛预测系统，基于数据驱动的分析方法。
 
-最新版本：V6.0 | 1090场数据验证 | 准确率55.3%
+最新版本：V7.0 | 1090场数据验证 | 准确率55.3%
 
 ## Features
 
@@ -18,7 +18,11 @@
 - 主场优势：量化主场因素影响
 - 评分差距：高差距高权重
 - 射手状态：关键球员进球趋势
-- 联赛/杯赛：区分不同赛事特点
+- 深度学习：DNN+集成模型优化
+- 赔率效率：分析赔率定价准确性
+- 实时数据：整合实时比赛数据
+- 可视化：预测结果可视化仪表板
+- API接口：RESTful API支持
 
 ## Installation
 
@@ -33,7 +37,8 @@ git clone https://github.com/JayT-ao/football-prediction-skill.git
 - V3_OPTIMIZATION.md: xG+ML+回测
 - V4_ADVANCED.md: LSTM+Transformer+GNN+因果+RL
 - V5_REFINEMENTS.md: 亚洲/非洲加权+欧洲降权
-- V6_REFINEMENTS.md: 主场+评分差距+射手+冷门
+- V6_REFINEMENTS.md: 主场+评分差距+射手+1090场验证
+- V7_ADVANCED.md: 深度学习+赔率效率+实时数据+API
 - README.md: 说明文档
 
 ## Performance (1090场验证)
@@ -64,6 +69,7 @@ git clone https://github.com/JayT-ao/football-prediction-skill.git
 - v4.0: LSTM+Transformer+GNN+因果+RL
 - v5.0: 亚洲/非洲加权+欧洲降权
 - v6.0: 主场+评分差距+射手+1090场验证
+- v7.0: 深度学习+赔率效率+实时数据+API
 
 ## License
 
